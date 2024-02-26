@@ -1,0 +1,183 @@
+/* App.css or your style file */
+.navbar-nav {
+  margin-left:660px;
+  font-size: 18px;
+  font-weight: 600px;
+}
+
+.navbar-nav .nav-link{
+  margin-left:15px;
+}
+.Navbar-nav.brand ::after {
+  image-rendering: 20px;
+  font-size: 54px; 
+  font-weight: bold;
+}
+.Navbar-nav.brand:hover {
+  text-decoration: none; 
+  color: #ff0000;
+}
+.navbar-nav .nav-link:hover {
+  color: rgb(240, 8, 8) !important;
+}
+.NavDrop-down:hover {
+  color: rgb(240, 8, 8) !important;
+
+}
+.NavDrop-down .nav-link:hover {
+  background-color: rgb(240, 8, 8) !important;
+
+}
+
+/* CarouselStyles.css */
+
+.slider-container{
+  margin-top: -30px;
+  margin-left: 80px;
+  margin-right: 35px;
+  margin-bottom: 50px;
+}
+
+.slider-item-img {
+  width: 100%;
+  height: 580px;
+  background-color: white;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+/* BookingForm.css */
+
+.Booking-container {
+  position: absolute;
+  top: 85%;
+  left: 51.5%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(24, 23, 23, 0.744); /* Add a semi-transparent background */
+  padding: 31px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.form-labels {
+  color: #fff;
+}
+.form-btn{
+  margin-top: 30px;
+}
+
+
+/* CardStyles.css */
+
+.card-container {
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap;
+  margin-left: 80px;
+}
+
+.card {
+  width: 18rem;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 20px; 
+  margin-bottom: 20px;
+  transition: transform 0.3s, box-shadow 0.3s; /* Add smooth transition */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Add a slight scale effect on hover */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Add box shadow on hover */
+
+}
+
+.card-img {
+  height: 200px;
+  width: 286px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-button {
+  margin-top: 10px;
+}
+
+/* Add more styles as needed */
+
+/* Override Bootstrap primary button color */
+.card-button {
+  background-color:#f64b4be0;
+  border-color:#f64b4be0;
+}
+
+.card-button:hover {
+  background-color:#f64b4bf8;
+  border-color:  #f64b4bf8;
+}
+
+
+
+/*Footer */
+.footer {
+  background: #f64b4bf1;
+  margin: 10px; 
+  padding: 40px 0;
+  color: #fff;
+  text-align: center;
+}
+.go-top{
+  color: aqua;
+}
+/* Add these styles to your CSS file */
+
+.contact-form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 2px solid #ddd; /* Set the border for the container */
+  padding: 20px; /* Add padding for better visual */
+  border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+}
+
+.contact-form h1 {
+  border-bottom: 2px solid #ddd; /* Add a border below the heading */
+  padding-bottom: 12px; /* Adjust as needed */
+}
+
+.contact-form .col-md-5 {
+  border-right: 2px solid #ddd; /* Add a border to the right of the first column */
+}
+
+.contact-form .col-md-6 {
+  border-left: 2px solid #ddd; /* Add a border to the left of the second column */
+}
+.services{
+  border: 2px solid #ddd; 
+  border-radius: 5px;
+}
+
+.services h6 {
+  margin-top: 10px;
+  margin-bottom: 1px; /* Adjust as needed */
+
+}
+
+.services .col {
+  margin-top: 10px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: left; /* Align content horizontally */
+  align-items: left; /* Align content vertically */
+  flex-direction: column; /* Stack content vertically */
+}
+.services-row{
+  margin-top: 20px;
+}
+/* About.css*/
+.about {
+  margin-top: 10px;
+  border: 2px solid #24252565; /* Add a border to the container */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  padding: 20px; /* Add padding inside the container */
+}
